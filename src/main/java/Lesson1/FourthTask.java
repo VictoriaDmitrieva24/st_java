@@ -4,11 +4,11 @@ public class FourthTask {
 
     public static void main(String[] args) {
         String s = " aba";
-        String st = isPalindrome(s);
+        boolean st = isPalindrome(s);
         System.out.println(st);
     }
 
-    public boolean isPalindrome(String s) {
+    public static boolean isPalindrome(String s) {
         int start = 0;
         int end = s.length() - 1;
 
